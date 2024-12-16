@@ -1,0 +1,79 @@
+/* Write your code here. */
+
+.winOrLoseCard {
+  margin: 15px;
+  padding: 55px;
+  order: #ffffff solid 2px;
+  background: rgba(248, 248, 248, 0.2);
+  border-radius: 25px;
+  width: 90%;
+  min-height: 65vh;
+  flex-wrap: wrap;
+  border: #ffffff30 solid 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.winningcard {
+  text-align: center;
+  order: 5;
+}
+
+.imageWonLose {
+  height: 35%;
+  width: 155px;
+  align-self: flex-start;
+}
+
+.button {
+  color: #3d3d3d;
+  padding: 20px 28px 20px 28px;
+  margin-top: 15px;
+  border-radius: 28px;
+  font-family: 'Roboto';
+  background-color: #ffce27;
+  font-weight: bold;
+  font-size: large;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.best {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.your {
+  margin-top: 10px;
+  font-weight: bolder;
+  color: #ffffff;
+  font-size: 50px;
+}
+.scoreColor {
+  color: #6a59ff;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .winOrLoseCard {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .imageWonLose {
+    height: 400px;
+    width: 280px;
+  }
+  .winningcard {
+    order: 0;
+  }
+  .best {
+    font-size: 40px;
+  }
+}
