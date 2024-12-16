@@ -2,7 +2,7 @@ In this project, i've built an **Emoji Game**.
 
 Link- https://gk03EmojiGame.ccbp.tech
 
-Technologies used- React.js, Flexbox, css, javascript, CSS
+Technologies used- React.js, Flexbox, Javascript, CSS
 
 ----------------------------------------------------------------------------------------------------------------
 
